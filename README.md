@@ -13,6 +13,8 @@ cat /etc/centos-release
 
 ここで`PHP7.3`が`MsSql`にアクセス可能な状態にします。
 
+※実際にdocker運用を行う場合には、PHPもDocker下に来るため簡易になります。`docker network`に関する内容を読み替えてください。
+
 # php / mssql basic installations
 出典：https://ptsv.jp/repository/rhel7-php71-sqlserver/
 ```
